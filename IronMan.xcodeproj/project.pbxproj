@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4B19D8D6AA6BC10A01289A /* Pods_IronManUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB16370BE3825AA04C460D6 /* Pods_IronManUITests.framework */; };
+		1D4855A79C7F0BA59AC5436B /* Pods_IronManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0C62BD359D9825697ACC0 /* Pods_IronManTests.framework */; };
+		387B18E21E1130C700284880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B18E11E1130C700284880 /* AppDelegate.swift */; };
+		387B18E41E1130C700284880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B18E31E1130C700284880 /* ViewController.swift */; };
+		387B18E71E1130C700284880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387B18E51E1130C700284880 /* Main.storyboard */; };
+		387B18E91E1130C700284880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387B18E81E1130C700284880 /* Assets.xcassets */; };
+		387B18EC1E1130C700284880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387B18EA1E1130C700284880 /* LaunchScreen.storyboard */; };
+		387B18F71E1130C700284880 /* IronManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B18F61E1130C700284880 /* IronManTests.swift */; };
+		387B19021E1130C700284880 /* IronManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B19011E1130C700284880 /* IronManUITests.swift */; };
+		8DFB50D557A25CFC5EA92411 /* Pods_IronMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D959DDEE6778DD103536A6A /* Pods_IronMan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387B18F31E1130C700284880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387B18D61E1130C700284880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387B18DD1E1130C700284880;
+			remoteInfo = IronMan;
+		};
+		387B18FE1E1130C700284880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387B18D61E1130C700284880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387B18DD1E1130C700284880;
+			remoteInfo = IronMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A833CE9E331030829A7410 /* Pods-IronManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18568E544E171AC76CF1CAEB /* Pods-IronMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronMan/Pods-IronMan.release.xcconfig"; sourceTree = "<group>"; };
+		2CD0C62BD359D9825697ACC0 /* Pods_IronManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IronManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B18DE1E1130C700284880 /* IronMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B18E11E1130C700284880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387B18E31E1130C700284880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387B18E61E1130C700284880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387B18E81E1130C700284880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387B18EB1E1130C700284880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387B18ED1E1130C700284880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387B18F21E1130C700284880 /* IronManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B18F61E1130C700284880 /* IronManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronManTests.swift; sourceTree = "<group>"; };
+		387B18F81E1130C700284880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387B18FD1E1130C700284880 /* IronManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B19011E1130C700284880 /* IronManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronManUITests.swift; sourceTree = "<group>"; };
+		387B19031E1130C700284880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532C24C58D0B03AF8F4F12D0 /* Pods-IronManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D959DDEE6778DD103536A6A /* Pods_IronMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IronMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C17E488AABDA89EF8D9283C /* Pods-IronMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronMan/Pods-IronMan.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB16370BE3825AA04C460D6 /* Pods_IronManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IronManUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE5924243D752CA42A3B353 /* Pods-IronManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED671231ECD68A91CD398793 /* Pods-IronManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronManTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387B18DB1E1130C700284880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFB50D557A25CFC5EA92411 /* Pods_IronMan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18EF1E1130C700284880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4855A79C7F0BA59AC5436B /* Pods_IronManTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18FA1E1130C700284880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4B19D8D6AA6BC10A01289A /* Pods_IronManUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387B18D51E1130C700284880 = {
+			isa = PBXGroup;
+			children = (
+				387B18E01E1130C700284880 /* IronMan */,
+				387B18F51E1130C700284880 /* IronManTests */,
+				387B19001E1130C700284880 /* IronManUITests */,
+				387B18DF1E1130C700284880 /* Products */,
+				DF05FCD5F94C2DCD017F9CA8 /* Pods */,
+				F373B42735361C3EE88AC676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		387B18DF1E1130C700284880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387B18DE1E1130C700284880 /* IronMan.app */,
+				387B18F21E1130C700284880 /* IronManTests.xctest */,
+				387B18FD1E1130C700284880 /* IronManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387B18E01E1130C700284880 /* IronMan */ = {
+			isa = PBXGroup;
+			children = (
+				387B190F1E11320B00284880 /* Category */,
+				387B19101E11320B00284880 /* Libs */,
+				387B19111E11320B00284880 /* Main */,
+				387B19121E11320B00284880 /* Resources */,
+				387B18E11E1130C700284880 /* AppDelegate.swift */,
+				387B18E31E1130C700284880 /* ViewController.swift */,
+				387B18E51E1130C700284880 /* Main.storyboard */,
+				387B18E81E1130C700284880 /* Assets.xcassets */,
+				387B18EA1E1130C700284880 /* LaunchScreen.storyboard */,
+				387B18ED1E1130C700284880 /* Info.plist */,
+			);
+			path = IronMan;
+			sourceTree = "<group>";
+		};
+		387B18F51E1130C700284880 /* IronManTests */ = {
+			isa = PBXGroup;
+			children = (
+				387B18F61E1130C700284880 /* IronManTests.swift */,
+				387B18F81E1130C700284880 /* Info.plist */,
+			);
+			path = IronManTests;
+			sourceTree = "<group>";
+		};
+		387B19001E1130C700284880 /* IronManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387B19011E1130C700284880 /* IronManUITests.swift */,
+				387B19031E1130C700284880 /* Info.plist */,
+			);
+			path = IronManUITests;
+			sourceTree = "<group>";
+		};
+		387B190F1E11320B00284880 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		387B19101E11320B00284880 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		387B19111E11320B00284880 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		387B19121E11320B00284880 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF05FCD5F94C2DCD017F9CA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C17E488AABDA89EF8D9283C /* Pods-IronMan.debug.xcconfig */,
+				18568E544E171AC76CF1CAEB /* Pods-IronMan.release.xcconfig */,
+				ED671231ECD68A91CD398793 /* Pods-IronManTests.debug.xcconfig */,
+				EAE5924243D752CA42A3B353 /* Pods-IronManTests.release.xcconfig */,
+				05A833CE9E331030829A7410 /* Pods-IronManUITests.debug.xcconfig */,
+				532C24C58D0B03AF8F4F12D0 /* Pods-IronManUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F373B42735361C3EE88AC676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D959DDEE6778DD103536A6A /* Pods_IronMan.framework */,
+				2CD0C62BD359D9825697ACC0 /* Pods_IronManTests.framework */,
+				DAB16370BE3825AA04C460D6 /* Pods_IronManUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387B18DD1E1130C700284880 /* IronMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387B19061E1130C700284880 /* Build configuration list for PBXNativeTarget "IronMan" */;
+			buildPhases = (
+				6E6913D73974C1D900F7112C /* [CP] Check Pods Manifest.lock */,
+				387B18DA1E1130C700284880 /* Sources */,
+				387B18DB1E1130C700284880 /* Frameworks */,
+				387B18DC1E1130C700284880 /* Resources */,
+				6475B10EBA7CE69D6013776D /* [CP] Embed Pods Frameworks */,
+				7A3A4035E2826211CA2036C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronMan;
+			productName = IronMan;
+			productReference = 387B18DE1E1130C700284880 /* IronMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387B18F11E1130C700284880 /* IronManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387B19091E1130C700284880 /* Build configuration list for PBXNativeTarget "IronManTests" */;
+			buildPhases = (
+				E9E0216AC9678A877AD65D07 /* [CP] Check Pods Manifest.lock */,
+				387B18EE1E1130C700284880 /* Sources */,
+				387B18EF1E1130C700284880 /* Frameworks */,
+				387B18F01E1130C700284880 /* Resources */,
+				4A324A55F27D3BF036FB7191 /* [CP] Embed Pods Frameworks */,
+				36FE906E54D70B7EC139B0B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387B18F41E1130C700284880 /* PBXTargetDependency */,
+			);
+			name = IronManTests;
+			productName = IronManTests;
+			productReference = 387B18F21E1130C700284880 /* IronManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387B18FC1E1130C700284880 /* IronManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387B190C1E1130C700284880 /* Build configuration list for PBXNativeTarget "IronManUITests" */;
+			buildPhases = (
+				AD286C5C25C38F71840647B8 /* [CP] Check Pods Manifest.lock */,
+				387B18F91E1130C700284880 /* Sources */,
+				387B18FA1E1130C700284880 /* Frameworks */,
+				387B18FB1E1130C700284880 /* Resources */,
+				A30280BE4A42B0D5149ED4C3 /* [CP] Embed Pods Frameworks */,
+				311C855189F747F9F09D2ED8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387B18FF1E1130C700284880 /* PBXTargetDependency */,
+			);
+			name = IronManUITests;
+			productName = IronManUITests;
+			productReference = 387B18FD1E1130C700284880 /* IronManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387B18D61E1130C700284880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangshaohua;
+				TargetAttributes = {
+					387B18DD1E1130C700284880 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HE3M4LJKL5;
+						ProvisioningStyle = Automatic;
+					};
+					387B18F11E1130C700284880 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HE3M4LJKL5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 387B18DD1E1130C700284880;
+					};
+					387B18FC1E1130C700284880 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HE3M4LJKL5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 387B18DD1E1130C700284880;
+					};
+				};
+			};
+			buildConfigurationList = 387B18D91E1130C700284880 /* Build configuration list for PBXProject "IronMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387B18D51E1130C700284880;
+			productRefGroup = 387B18DF1E1130C700284880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387B18DD1E1130C700284880 /* IronMan */,
+				387B18F11E1130C700284880 /* IronManTests */,
+				387B18FC1E1130C700284880 /* IronManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387B18DC1E1130C700284880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387B18EC1E1130C700284880 /* LaunchScreen.storyboard in Resources */,
+				387B18E91E1130C700284880 /* Assets.xcassets in Resources */,
+				387B18E71E1130C700284880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18F01E1130C700284880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18FB1E1130C700284880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		311C855189F747F9F09D2ED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36FE906E54D70B7EC139B0B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A324A55F27D3BF036FB7191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronManTests/Pods-IronManTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6475B10EBA7CE69D6013776D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronMan/Pods-IronMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6913D73974C1D900F7112C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3A4035E2826211CA2036C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronMan/Pods-IronMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30280BE4A42B0D5149ED4C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronManUITests/Pods-IronManUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD286C5C25C38F71840647B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E0216AC9678A877AD65D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387B18DA1E1130C700284880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387B18E41E1130C700284880 /* ViewController.swift in Sources */,
+				387B18E21E1130C700284880 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18EE1E1130C700284880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387B18F71E1130C700284880 /* IronManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387B18F91E1130C700284880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387B19021E1130C700284880 /* IronManUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387B18F41E1130C700284880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387B18DD1E1130C700284880 /* IronMan */;
+			targetProxy = 387B18F31E1130C700284880 /* PBXContainerItemProxy */;
+		};
+		387B18FF1E1130C700284880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387B18DD1E1130C700284880 /* IronMan */;
+			targetProxy = 387B18FE1E1130C700284880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387B18E51E1130C700284880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387B18E61E1130C700284880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387B18EA1E1130C700284880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387B18EB1E1130C700284880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387B19041E1130C700284880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387B19051E1130C700284880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387B19071E1130C700284880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C17E488AABDA89EF8D9283C /* Pods-IronMan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		387B19081E1130C700284880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18568E544E171AC76CF1CAEB /* Pods-IronMan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		387B190A1E1130C700284880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED671231ECD68A91CD398793 /* Pods-IronManTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronMan.app/IronMan";
+			};
+			name = Debug;
+		};
+		387B190B1E1130C700284880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE5924243D752CA42A3B353 /* Pods-IronManTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronMan.app/IronMan";
+			};
+			name = Release;
+		};
+		387B190D1E1130C700284880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A833CE9E331030829A7410 /* Pods-IronManUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IronMan;
+			};
+			name = Debug;
+		};
+		387B190E1E1130C700284880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532C24C58D0B03AF8F4F12D0 /* Pods-IronManUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HE3M4LJKL5;
+				INFOPLIST_FILE = IronManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huang.IronManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IronMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387B18D91E1130C700284880 /* Build configuration list for PBXProject "IronMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387B19041E1130C700284880 /* Debug */,
+				387B19051E1130C700284880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387B19061E1130C700284880 /* Build configuration list for PBXNativeTarget "IronMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387B19071E1130C700284880 /* Debug */,
+				387B19081E1130C700284880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387B19091E1130C700284880 /* Build configuration list for PBXNativeTarget "IronManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387B190A1E1130C700284880 /* Debug */,
+				387B190B1E1130C700284880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387B190C1E1130C700284880 /* Build configuration list for PBXNativeTarget "IronManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387B190D1E1130C700284880 /* Debug */,
+				387B190E1E1130C700284880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387B18D61E1130C700284880 /* Project object */;
+}
