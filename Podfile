@@ -7,6 +7,7 @@ target 'IronMan' do
 
   # Pods for IronMan
 	pod 'SDWebImage', '~>3.8'
+	pod "WeiboSDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
   target 'IronManTests' do
     inherit! :search_paths
     # Pods for testing
