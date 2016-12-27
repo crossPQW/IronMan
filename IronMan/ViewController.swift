@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let request = WBAuthorizeRequest()
+        request.redirectURI = "https://api.weibo.com/oauth2/default.html"
+        request.scope = "all"
+        request.userInfo = ["SSO_From" : "ViewController"]
+        WeiboSDK.send(request)
     }
 
     override func didReceiveMemoryWarning() {
